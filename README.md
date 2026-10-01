@@ -1,2 +1,2 @@
 # gitops_project
-A zero-touch GitOps deployment pipeline built from scratch using K3d, ArgoCD, and Docker to demonstrate modern platform engineering and Kubernetes automation.
+This repository contains the declarative infrastructure and deployment manifests for a fully automated, local GitOps pipeline. Built to simulate a production-grade platform engineering environment, it utilizes K3d (Kubernetes) for local infrastructure, GitHub as the single source of truth, and ArgoCD as the continuous delivery controller. Any changes merged into this repository are automatically detected and synchronized to the cluster, eliminating configuration drift and manual kubectl interventions.
